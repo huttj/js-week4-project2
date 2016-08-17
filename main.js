@@ -15,10 +15,14 @@ $(document).ready(function() {
     
     
 //1. 
-   
+   $('.alertme').on('click', function() {
+       alert('jQuery seems easy so far! (But project 4, not so much...)');
+   });
    
 //2.  
-    
+    $('.clickme').click(function() {
+        $(this).text('I was clicked!');
+    });
     
 //3. 
    
