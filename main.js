@@ -16,7 +16,7 @@ $(document).ready(function() {
     
 //1. 
    $('.alertme').on('click', function() {
-       alert('jQuery seems easy so far! (But project 4, not so much...)');
+       alert('jQuery seems easy so far!');
    });
    
 //2.  
